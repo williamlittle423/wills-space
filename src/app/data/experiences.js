@@ -1,60 +1,74 @@
-
 export const experienceList = [
+  {
+    title: "Improving Machine Learning Potentials of Lithium Metals – Thesis @ Queen's University",
+    date: "SEPT 2024 – PRESENT",
+    description:
+      "Conducting active learning research to enhance interatomic potentials for lithium metals under extreme conditions. Automating large-scale simulations through Python and Bash scripts on HPC systems, leveraging OpenMP for parallelization and accelerating model convergence.",
+    image: "/lammps.png",
+    width: "40vw", // Use any viewport-based width you like
+  },
+  {
+    title: "Finetuning Llama-2 for Movie Genre Classification – Research @ Queen's University",
+    date: "SEPT 2024 – DEC 2024",
+    description:
+      "Fine-tuned LLaMA-2 7B and Mistral-7B transformer models using Supervised Fine-Tuning (SFT) and Low-Rank Adaptation (LoRA) on a 108,000-movie dataset spanning 26 genres. Achieved 71.3% accuracy in classification tasks, showcasing the potential of advanced language models for text categorization.",
+    image: "/llm.png",
+    width: "30vw",
+  },
+  {
+    title: "ASL Translation Gloves – Capstone @ Queen's University",
+    date: "SEPT 2024 – DEC 2024",
+    description:
+      "Successfully led the development of an ASL-to-speech translation glove in a 10-week period, featuring a Raspberry Pi 5 and controlled by a deep multi-layer perceptron built using PyTorch, enabling live inference every 50 milliseconds. Designed and constructed full electronic system, including five 3-axis accelerometer and gyroscopes attached to each fingertip, and powered by the Pi through a PCB.",
+    image: "/glove.jpg",
+    width: "35vw",
+  },
   {
     title: "Machine Learning Research Assistant @ Royal Military College of Canada",
     date: "MAY 2024 – DEC 2024",
     description:
-      "Secured $13,050.00 in funding to develop an innovative Convolution Neural Network architecture in PyTorch for spatiotemporal ocean state forecasting. Developed and published a Python3 Package that provides 12+ tools for downloading, plotting, and analyzing ocean datasets using OpenMPI, used by oceanographers internationally",
-  },
-  {
-    title: "ASL Translation Gloves - Capstone @ Queen's University",
-    date: "SEPT 2024 – DEC 2024",
-    description:
-      "Developed of an ASL translation glove, controlled by a custom-designed neural network architecture in PyTorch, enabling live communication with 93% experimental accuracy. Engineered and assembled a control board with over 25 I/O ports to manage sensor power and I/O operations.",
-    image: "/asl_glove.jpeg",
+      "Secured $13,050 in funding to design a novel convolutional neural network in PyTorch for spatiotemporal ocean state forecasting. Published a Python 3 package featuring 12+ ocean-data tools leveraging OpenMPI, now utilized by oceanographers internationally.",
+    image: "/rmc.jpg",
+    width: "60vw",
   },
   {
     title: "Head of Software @ Queen's Biomechatronics Team",
     date: "APR 2024 – PRESENT",
     description:
-      "Leading software development for a university biomechatronics team of 60+ members to create an exoskeleton for firefighter support. Conducted workshops for 20+ students on embedded systems, version control, and machine learning, fostering skill growth and collaboration.",
+      "Overseeing software development for a 60+ member team constructing a firefighter-support exoskeleton. Conducted workshops for over 20 students on embedded systems, version control, and machine learning. Fostering collaboration and skill growth to drive biomechatronic innovation.",
     image: "/qbmet.jpg",
-  },
-  {
-    title: "Improving Machine Learning Potentials of Lithium Metals - Thesis @ Queen's University",
-    date: "SEPT 2024 – PRESENT",
-    description:
-      "Conducting research on active learning to enhance interatomic potentials for Lithium metal in extreme environments using scientific machine learning techniques. Developing Python and Bash scripts to automate machine learning active learning framework, utilizing HPC resources and OpenMP for parallelizing large-scale simulations.",
-  },
-  {
-    title: "Finetuning Llama-2 for Movie Genre Classification - Research @ Queen's University",
-    date: "SEPT 2024 – DEC 2024",
-    description:
-      "Conducting research on active learning to enhance interatomic potentials for metals using scientific machine learning techniques. Developing Python and Bash scripts to automate machine learning active learning framework, utilizing HPC resources and OpenMP for parallelizing large-scale simulations.",
-  },
-  {
-    title: "Autonomous Vertical Farming with Machine Learning @ QMIND",
-    date: "SEPT 2023 – APRIL 2024",
-    description:
-      "Developed an autonomous vertical farming system driven by a trained parametric model, achieving a 95% accuracy in live nutrient and water levels, deployed on an Arduino system. Presented the project at the national Canadian Undergraduate Conference on AI, receiving recognition for its innovative application of machine learning in sustainable agriculture.",
-    image: "qmind.jpeg",
-  },
-  {
-    title: "Engineering Physicist Intern @ Canadian Nuclear Laboratories",
-    date: "APRIL 2023 – AUGUST 2023",
-    description:
-      "Integrated the DBSCAN unsupervised machine learning model using TensorFlow to identify nuclear materials in a 1m3 voxelized region from a density reconstruction, achieving 88% accuracy. Developed a software to streamline an 8-step data processing workflow for a research particle detector using Bash scripting and C++. Facilitated the electronics setup and execution of 5 experiments for the detector, conducting quantitative analyses to evaluate and optimize experimental outcomes.",
+    width: "25vw",
   },
   {
     title: "Diagnosys Life-Like Patient Simulator @ Queen's University Hackathon",
     date: "MARCH 2024",
     description:
-      "Developed a website that simulates a patient's vital signs and symptoms, enabling medical students to diagnose and practice communicating treating virtual patients for medical school training. Integrated a fine-tuned GPT-3 model to provide realistic patient responses to medical questions and presented live diagnosis to a panel of judges.",
+      "Created a web-based simulator allowing medical students to diagnose and communicate with virtual patients. Integrated a fine-tuned GPT-3 model for realistic patient Q&A. Presented live patient diagnoses to a judging panel, highlighting advanced AI-driven medical training possibilities.",
+    image: "/diagnosys.jpg",
+    width: "50vw",
+  },
+  {
+    title: "Autonomous Vertical Farming with Machine Learning @ QMIND",
+    date: "SEPT 2023 – APRIL 2024",
+    description:
+      "Developed an autonomous vertical farming system powered by a trained parametric model for nutrient and water-level predictions (95% accuracy). Deployed on Arduino hardware and showcased at the Canadian Undergraduate Conference on AI, earning recognition for its innovative application of machine learning in sustainable agriculture.",
+    image: "/qmind.jpeg",
+    width: "30vw",
+  },
+  {
+    title: "Engineering Physicist Intern @ Canadian Nuclear Laboratories",
+    date: "APRIL 2023 – AUGUST 2023",
+    description:
+      "Integrated an unsupervised DBSCAN model in TensorFlow to detect nuclear materials in a 1m³ voxelized region from density reconstructions, achieving 88% accuracy. Automated an 8-step data processing workflow for a research particle detector using Bash scripting and C++. Led the electronics setup and execution of five experiments, performing quantitative analyses to optimize detector performance.",
+    image: "/cnl.jpeg",
+    width: "30vw",
   },
   {
     title: "Tech Founder @ Motiv App Inc.",
-    date: "MAY 2021 - MAY 2022",
+    date: "MAY 2021 – MAY 2022",
     description:
-      "Led the development of a large-scale iOS social media application using Swift with SwiftUI, employing a combination of MVVM and MVC architecture for frontend mechanics. Built a serverless API backend infrastructure using Node.js and REST API, integrated with AWS Lambda, S3, API Gateway, and MongoDB.",
+      "Spearheaded the development of a large-scale iOS social media app using Swift and SwiftUI, implementing a blend of MVVM and MVC architectures. Built a serverless backend with Node.js REST APIs, AWS Lambda, S3, API Gateway, and MongoDB to support real-time interactions and scalable data handling.",
+    image: "/motiv.png",
+    width: "30vw",
   },
 ];
