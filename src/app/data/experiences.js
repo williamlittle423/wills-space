@@ -1,11 +1,27 @@
 export const experienceList = [
   {
-    title: "Improving Machine Learning Potentials of Lithium Metals – Thesis @ Queen's University",
-    date: "SEPT 2024 – PRESENT",
+    title: "Chief Technology Officer @ Queen's Biomechatronics Team",
+    date: "APR 2024 – MAY 2025",
     description:
-      "Conducting active learning research to enhance interatomic potentials for lithium metals under extreme conditions. Automating large-scale simulations through Python and Bash scripts on HPC systems, leveraging OpenMP for parallelization and accelerating model convergence.",
+      "Directed the technical development of control software, sensor integration, and system architecture of a $25K exoskeleton from scratch with 50+ team members. Placed 1st at the North American Exoskeleton Competition among 15 international teams.",
+    image: "/qbmet.jpeg",
+    width: "40vw",
+  },
+  {
+    title: "Deep Learning Researcher @ Department of National Defence Canada",
+    date: "APR 2024 – APR 2025",
+    description:
+      "Developed a novel Graph Neural Network in PyTorch for autoregressive ocean state forecasting, achieving state-of-the-art 89% predictive accuracy on 5-day forecasts. Engineered a large-scale data assimilation and feature-engineering pipeline using Apache Spark for distributed preprocessing on 60 TB of training data stored on AWS S3.",
+    image: "/rmc.jpg",
+    width: "60vw",
+  },
+  {
+    title: "Deep Learning Quantum Simulator – Undergraduate Thesis @ Queen's University",
+    date: "SEPT 2024 – APR 2025",
+    description:
+      "Developed a C++/Python deep learning quantum simulation framework that reduced material simulation complexity from O(N⁴) to O(N) while maintaining state-of-the-art numerical accuracy. Successfully defended a 21-page thesis presenting a novel ML-driven approach to quantum simulations.",
     image: "/lammps.png",
-    width: "40vw", // Use any viewport-based width you like
+    width: "40vw",
   },
   {
     title: "Finetuning Llama-2 for Movie Genre Classification – Research @ Queen's University",
@@ -19,25 +35,9 @@ export const experienceList = [
     title: "ASL Translation Gloves – Capstone @ Queen's University",
     date: "SEPT 2024 – DEC 2024",
     description:
-      "Successfully led the development of an ASL-to-speech translation glove in a 10-week period, featuring a Raspberry Pi 5 and controlled by a deep multi-layer perceptron built using PyTorch, enabling live inference every 50 milliseconds. Designed and constructed full electronic system, including five 3-axis accelerometer and gyroscopes attached to each fingertip, and powered by the Pi through a PCB.",
+      "Successfully led the development of an ASL-to-speech translation glove in a 10-week period, featuring a Raspberry Pi 5 and controlled by a deep multi-layer perceptron built using PyTorch, enabling live inference every 50 milliseconds. Designed and constructed full electronic system, including five 3-axis accelerometer and gyroscopes attached to each fingertip, and powered engineered a PCB for power distribution.",
     image: "/glove.jpg",
     width: "35vw",
-  },
-  {
-    title: "Machine Learning Research Assistant @ Royal Military College of Canada",
-    date: "MAY 2024 – DEC 2024",
-    description:
-      "Secured $13,050 in funding to design a novel convolutional neural network in PyTorch for spatiotemporal ocean state forecasting. Published a Python 3 package featuring 12+ ocean-data tools leveraging OpenMPI, now utilized by oceanographers internationally.",
-    image: "/rmc.jpg",
-    width: "60vw",
-  },
-  {
-    title: "Head of Software @ Queen's Biomechatronics Team",
-    date: "APR 2024 – PRESENT",
-    description:
-      "Overseeing software development for a 60+ member team constructing a firefighter-support exoskeleton. Conducted workshops for over 20 students on embedded systems, version control, and machine learning. Fostering collaboration and skill growth to drive biomechatronic innovation.",
-    image: "/qbmet.jpg",
-    width: "25vw",
   },
   {
     title: "Diagnosys Life-Like Patient Simulator @ Queen's University Hackathon",
@@ -56,10 +56,10 @@ export const experienceList = [
     width: "30vw",
   },
   {
-    title: "Engineering Physicist Intern @ Canadian Nuclear Laboratories",
-    date: "APRIL 2023 – AUGUST 2023",
+    title: "Data Science Intern @ Canadian Nuclear Laboratories",
+    date: "MAY 2023 – AUG 2023",
     description:
-      "Integrated an unsupervised DBSCAN model in TensorFlow to detect nuclear materials in a 1m³ voxelized region from density reconstructions, achieving 88% accuracy. Automated an 8-step data processing workflow for a research particle detector using Bash scripting and C++. Led the electronics setup and execution of five experiments, performing quantitative analyses to optimize detector performance.",
+      "Developed high-performance Qt application in C++ for real-time processing and visualization of 80 GB/day experimental data from research particle detectors. Implemented a DBSCAN clustering algorithm for automated classification of high-risk nuclear materials. Co-authored the 2025 Journal of Applied Physics article 'Muon Portable Imager for Counter-terrorism.'",
     image: "/cnl.jpeg",
     width: "30vw",
   },
